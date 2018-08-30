@@ -189,6 +189,14 @@ $WORDPRESS_SOCIAL_LOGIN_PROVIDERS_CONFIG = ARRAY(
 		"callback"          => true,
 		"new_app_link"      => "https://v2.steemconnect.com/dashboard",
 	),
+	ARRAY(
+		"provider_id"       => "ANTCloud",
+		"provider_name"     => "ANTCloud",
+		"require_client_id" => true,
+		"callback"          => true,
+		"default_network"   => true,
+		"new_app_link"      => "https://v2.steemconnect.com/dashboard",
+	),
 
 #- 
 
